@@ -1,0 +1,6 @@
+{
+  "name": "TaskReport",
+  "description": "A robust simulator for processing inconsistent raw data into typed reports using POO principles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

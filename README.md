@@ -1,11 +1,18 @@
-<div align="center">
+# TaskReport Dart
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+## Sobre
+O **TaskReport Dart** é uma aplicação que simula o tratamento de dados inconsistentes provenientes de uma API. O projeto foi desenhado sob a perspectiva de um Engenheiro de Software Sênior para demonstrar a robustez da Programação Orientada a Objetos (POO) em Dart.
 
-  <h1>Built with AI Studio</h2>
+## Objetivo
+Transformar uma lista de mapas brutos e inconsistentes em objetos tipados, garantindo a integridade dos dados através de sanitização, encapsulamento e polimorfismo.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Conceitos Aplicados
+*   **Encapsulamento**: Uso de campos privados (`_id`) e getters.
+*   **Herança (POO)**: Classe base `ItemTrabalho` e classe derivada `Tarefa`.
+*   **Polimorfismo**: Sobrescrita de métodos (`exibirResumo`).
+*   **Tratamento de Dados**: Sanitização de strings (trim), parsing seguro de moedas e números (null safety).
+*   **Coleções**: Uso de `Map`, `Set`, e `List` para processamento eficiente de dados.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Como Executar
+1. Certifique-se de ter o Dart SDK instalado.
+2. Execute o comando: `dart run TaskReport.dart`
